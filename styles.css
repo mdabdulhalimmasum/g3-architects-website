@@ -253,7 +253,7 @@ footer{
         grid-template-columns: 1fr;
     }
     .fea-img{
-        width: 100%;
+        width: 85%;
         margin-left: 0;
     }
      .teams-content, .facts-card-container{
@@ -265,6 +265,10 @@ footer{
     }
     .sponsors-img img{
         width: 165px;
+    }
+    .ten-y-b{
+        width: 260px;
+        position: static;
     }
     footer{
         height: 5rem;
