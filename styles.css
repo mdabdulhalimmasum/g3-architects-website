@@ -60,6 +60,45 @@ nav li a{
 .banner-img{
     width: 100%;
 }
+/* mains styles */
+main{
+    max-width: 1440px;
+    margin: 0 0 215px 215px;
+}
+.teams-container{
+    display: flex;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.teams-contant{
+    padding-right: 40px;
+    padding-left: 40px; 
+}
+.teams-title{
+    font-size: 2.1rem;
+}
+.q-l{
+    color: #727272;
+    font-weight: 500;
+}
+.o-o{
+    color: #131313;
+    font-weight: 700;
+}
+.f{
+    color: #FF900E;
+    font-weight: 700;
+}
+.teams-destripion{
+    color: var(--Dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
 
 
 /* responsive styles */
